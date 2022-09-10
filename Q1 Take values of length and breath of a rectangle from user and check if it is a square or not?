@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int l,b;
+    cout<<"Enter the length"<<endl;
+    cin>>l;
+    cout<<"Enter the breath"<<endl;
+    cin>>b;
+    
+    if(l==b)
+    {
+        cout<<"IT IS A SQUARE"<<endl;
+    }
+    else
+    {
+              cout<<"IT IS NOT A SQUARE"<<endl;
+  
+    }
+}
